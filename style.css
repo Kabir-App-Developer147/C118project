@@ -1,0 +1,53 @@
+#grad{
+    background-image: linear-gradient(to bottom right, red, orange, cyan, blue, blueviolet, purple);
+}
+
+#score{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+#timer{
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    background-color: cornsilk;
+    color: rgb(38,0,255);
+    font-family: 'Oswald', sans-serif;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+#sketch_to_be_drawn{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: red;
+}
+
+p,span{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+
+    animation-name:adarsh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes adarsh{
+    0%{box-shadow: 3px 3px 40px crimson;}
+    25%{box-shadow: 3px 3px 40px chocolate;}
+    50%{box-shadow: 3px 3px 40px darkblue;}
+    75%{box-shadow: 3px 3px 40px darkslategrey;}
+    100%{box-shadow: 3px 3px 40px darkred;}
+}
